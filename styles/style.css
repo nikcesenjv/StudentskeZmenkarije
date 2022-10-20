@@ -18,21 +18,36 @@ body {
     font-family: 'Inter', sans-serif;
 }
 
-.container {
-    color: white;
-    margin: 0 auto;
+button {
+    height: 50px;
+    width: 50%;
+    font-size: 20px;
+    color: rgb(235, 69, 120);
+    background-color: white;
+    border-radius: 10px;
+    border-color: 3px solid white;
+    margin: 15px;
+}
+
+input {
+    height: 50px;
+    width: 75%;
+    font-size: 20px;
     text-align: center;
-    user-select: none;
+    color: rgb(235, 69, 120);
+    border-radius: 10px;
+    border-color: 3px solid white;
 }
 
 h1 {
     font-weight: bold;
     letter-spacing: .125rem;
     text-transform: uppercase;
+    font-size: 2.5rem;
+    margin-bottom: 15px;
 }
 
 li {
-    display: inline-block;
     font-size: 1.5em;
     list-style-type: none;
     padding: 1em;
@@ -41,19 +56,23 @@ li {
 
 li span {
     display: block;
-    font-size: 4.5rem;
+    font-size: 2.5rem;
 }
 
-@media all and (max-width: 768px) {
-    h1 {
-        font-size: calc(1.5rem * var(--smaller));
-    }
+.container {
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    user-select: none;
+    width: 100%;
+}
 
-    li {
-        font-size: calc(1.125rem * var(--smaller));
-    }
+.description {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
 
-    li span {
-        font-size: calc(3.375rem * var(--smaller));
-    }
+.label {
+    font-size: 20px;
+    margin-bottom: 10px;
 }
