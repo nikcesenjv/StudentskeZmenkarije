@@ -26,6 +26,7 @@ function redirect() {
 }
 
 function checkPhoneNumber(phoneNumber) {
+    phoneNumber = phoneNumber.replace(/\s+/g, '');
     if (phoneNumber.includes("+")) {
         if (phoneNumber.length == 12) {
             return phoneNumber

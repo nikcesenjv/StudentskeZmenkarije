@@ -59,6 +59,24 @@ li span {
     font-size: 2.5rem;
 }
 
+table {
+    width: 90%;
+    border-collapse: collapse;
+    border: 3px solid white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td, th {
+    border: 1px solid white;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+tr:first-child {
+    font-weight: bold;
+}
+
 .container {
     color: white;
     margin: 0 auto;

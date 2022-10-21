@@ -4,7 +4,7 @@ function calculateTime() {
           hour = minute * 60,
           day = hour * 24;
     
-    const countDown = Date.parse("dec 13, 2022 20:00:00 GMT+2"),
+    const countDown = Date.parse("sep 13, 2022 20:00:00 GMT+2"),
     x = setInterval(function() {    
 
         const now = new Date().getTime(),
