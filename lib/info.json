@@ -1,0 +1,101 @@
+{
+    "0": {
+        "name": "David",
+        "surname": "Verhov\u0161ek",
+        "gender": "M",
+        "age": "22",
+        "number": "+38641283015",
+        "dates": [],
+        "chosen": null
+    },
+    "1": {
+        "name": "Bla\u017e",
+        "surname": "Perko",
+        "gender": "M",
+        "age": "19",
+        "number": "+38651807332",
+        "dates": [],
+        "chosen": null
+    },
+    "2": {
+        "name": "Florjan",
+        "surname": "Piko",
+        "gender": "M",
+        "age": "24",
+        "number": "+38641327015",
+        "dates": [],
+        "chosen": null
+    },
+    "3": {
+        "name": "Gregor",
+        "surname": "Mlinari\u010d",
+        "gender": "M",
+        "age": "23",
+        "number": "+38651896081",
+        "dates": [],
+        "chosen": null
+    },
+    "4": {
+        "name": "Matej",
+        "surname": "Vilar",
+        "gender": "M",
+        "age": "20",
+        "number": "+38651799916",
+        "dates": [],
+        "chosen": null
+    },
+    "5": {
+        "name": "Tim ",
+        "surname": "Hrovat",
+        "gender": "M",
+        "age": "20",
+        "number": "+38640289622",
+        "dates": [],
+        "chosen": null
+    },
+    "6": {
+        "name": "Alja\u017e",
+        "surname": "\u0160\u010dek",
+        "gender": "M",
+        "age": "21",
+        "number": "+38651830219",
+        "dates": [],
+        "chosen": null
+    },
+    "7": {
+        "name": "Kristijan ",
+        "surname": "Handanovi\u0107",
+        "gender": "M",
+        "age": "20",
+        "number": "+38669634277",
+        "dates": [],
+        "chosen": null
+    },
+    "8": {
+        "name": "Klemen",
+        "surname": "Kete",
+        "gender": "M",
+        "age": "21",
+        "number": "+38668148226",
+        "dates": [],
+        "chosen": null
+    },
+    "9": {
+        "name": "Luka ",
+        "surname": "\u0160afranko",
+        "gender": "M",
+        "age": "22",
+        "number": "+38670497509",
+        "dates": [],
+        "chosen": null
+    },
+    "10": {
+        "name": "Klemen",
+        "surname": "Bogataj",
+        "gender": "M",
+        "age": "22",
+        "number": "+38631855096",
+        "dates": [],
+        "chosen": null
+    }
+}

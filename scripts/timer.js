@@ -16,7 +16,7 @@ function calculateTime() {
         document.getElementById("second").innerText = Math.floor((distance % (minute)) / second);
 
         if (distance <= 750) {
-            window.location.href = "pages/loginPage.html"
+            window.location.href = "pages/login.html"
             clearInterval(x);
             return;
         }
