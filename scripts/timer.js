@@ -1,4 +1,7 @@
 function calculateTime() {
+    var timerContainer = document.getElementById("timerContainer");
+    timerContainer.style.display = "block";
+
     const second = 1000,
           minute = second * 60,
           hour = minute * 60,
@@ -16,12 +19,14 @@ function calculateTime() {
         document.getElementById("second").innerText = Math.floor((distance % (minute)) / second);
 
         if (distance <= 750) {
+            timerContainer.style.display = "none";
             window.location.href = "pages/login.html"
             clearInterval(x);
             return;
         }
-
     }, 0)
+
+    timerContainer.style.display = "none";
 }
 
 calculateTime();

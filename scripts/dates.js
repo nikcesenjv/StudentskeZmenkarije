@@ -64,10 +64,8 @@ function datesLabel() {
 
     if (!participantTableBool) {
         var node = document.createTextNode("Tukaj so na voljo tvoji dejti:");
-        console.log("1");
     } else {
         var node = document.createTextNode("Tukaj so na voljo dejti vseh udeležencev:");
-        console.log("2");
     }
     datesAvailableText.appendChild(node);
 
@@ -78,6 +76,7 @@ function datesLabel() {
 function nameLabel(id) {
     const nameText = document.createElement("p");
     nameText.setAttribute("class", "description");
+    nameText.setAttribute("id", "participant");
 
     var node = document.createTextNode(parsedPeople[id]["name"] + " " + parsedPeople[id]["surname"]);
     nameText.appendChild(node);
@@ -87,7 +86,6 @@ function nameLabel(id) {
 }
 
 function datesTable() {
-    console.log("1.5");
     const dateTable = document.createElement("table");
     dateTable.setAttribute("class", currentTable);
     dateTable.setAttribute("id", currentTable);
