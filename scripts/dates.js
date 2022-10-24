@@ -2,28 +2,41 @@ const loggedPeople = localStorage.getItem("loggedPeople");
 const loggedID = localStorage.getItem("loggedID");
 
 const parsedPeople = parse(loggedPeople);
-
 var currentTable = "table-participant";
-var tableCounter = 0;
-var participantTableBool = false
+var isAdmin = false;
+var hasEveryStatus = false;
 
 sayHello(loggedID);
 
 if (localStorage.getItem("participant") == "true") {
-    datesLabel();
-    datesTable();
-    loadDataTable(findDates(loggedID));
+    runParticipant();
 }
 
 if (localStorage.getItem("admin") == "true") {
-    participantTableBool = true;
-    datesLabel();
+    runAdmin();
+}
 
+console.log(isAdmin);
+console.log(hasEveryStatus);
+
+if (!isAdmin || hasEveryStatus) {
+    chooseFavourite();
+}
+
+function runParticipant() {
+    subHeaderLabel();
+    participantTable();
+    loadDataTable(findDates(loggedID));
+}
+
+function runAdmin() {
+    isAdmin = true;
+
+    subHeaderLabel();
     for (var i = 0; i < Object.keys(parsedPeople).length; i++) {
         currentTable = "table-" + i;
-        console.log(currentTable);
-        nameLabel(i);
-        datesTable();
+        participantLabel(i);
+        participantTable();
         loadDataTable(findDates(i));
     }
 }
@@ -45,7 +58,10 @@ function sayHello(id) {
 
     document.getElementById("greeting").innerHTML = greet + "<br />" + person["name"] + "!";
 
-    if (localStorage.getItem("admin") == "true") {
+    if (localStorage.getItem("participant") == "true" && localStorage.getItem("admin") == "true") {
+        document.getElementById("adminTitle").innerHTML = "UDELEŽENEC & ADMIN";
+        hasEveryStatus = true;
+    } else if (localStorage.getItem("admin") == "true") {
         document.getElementById("adminTitle").innerHTML = "ADMIN";
     }
 }
@@ -58,22 +74,7 @@ function findPerson(id) {
     }
 }
 
-function datesLabel() {
-    const datesAvailableText = document.createElement("p");
-    datesAvailableText.setAttribute("class", "description");
-
-    if (!participantTableBool) {
-        var node = document.createTextNode("Tukaj so na voljo tvoji dejti:");
-    } else {
-        var node = document.createTextNode("Tukaj so na voljo dejti vseh udeležencev:");
-    }
-    datesAvailableText.appendChild(node);
-
-    const element = document.getElementById("datesTable");
-    element.appendChild(datesAvailableText);
-}
-
-function nameLabel(id) {
+function participantLabel(id) {
     const nameText = document.createElement("p");
     nameText.setAttribute("class", "description");
     nameText.setAttribute("id", "participant");
@@ -85,7 +86,22 @@ function nameLabel(id) {
     element.appendChild(nameText);
 }
 
-function datesTable() {
+function subHeaderLabel() {
+    const datesAvailableText = document.createElement("p");
+    datesAvailableText.setAttribute("class", "description");
+
+    if (!isAdmin) {
+        var node = document.createTextNode("Tukaj so na voljo tvoji dejti:");
+    } else {
+        var node = document.createTextNode("Tukaj so na voljo dejti vseh udeležencev:");
+    }
+    datesAvailableText.appendChild(node);
+
+    const element = document.getElementById("datesTable");
+    element.appendChild(datesAvailableText);
+}
+
+function participantTable() {
     const dateTable = document.createElement("table");
     dateTable.setAttribute("class", currentTable);
     dateTable.setAttribute("id", currentTable);
@@ -136,4 +152,15 @@ function loadDataTable(dateList) {
         c2.innerHTML = date["surname"];
         c3.innerHTML = date["number"];
     }
+}
+
+function chooseFavourite() {
+    const favouriteButton = document.createElement("button");
+    favouriteButton.setAttribute("onclick", "location.href='https://www.google.si'");
+
+    var node = document.createTextNode("Izberi svojega favorita!");
+    favouriteButton.appendChild(node);
+
+    const element = document.getElementById("datesTable");
+    element.appendChild(favouriteButton);
 }
