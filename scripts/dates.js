@@ -55,3 +55,7 @@ function loadDataTable(dateList) {
         c3.innerHTML = date["number"];
     }
 }
+
+function loadAdminTable(data) {
+    var table = document.getElementById("dateTable");
+}

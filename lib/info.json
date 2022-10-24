@@ -6,7 +6,8 @@
         "age": "22",
         "number": "+38641283015",
         "dates": [],
-        "chosen": null
+        "chosen": null,
+        "status": ["participant", "/"]
     },
     "1": {
         "name": "Bla\u017e",
@@ -15,7 +16,8 @@
         "age": "19",
         "number": "+38651807332",
         "dates": [],
-        "chosen": null
+        "chosen": null,
+        "status": ["participant", "/"]
     },
     "2": {
         "name": "Florjan",
@@ -24,7 +26,8 @@
         "age": "24",
         "number": "+38641327015",
         "dates": [],
-        "chosen": null
+        "chosen": null,
+        "status": ["participant", "/"]
     },
     "3": {
         "name": "Gregor",
@@ -33,7 +36,8 @@
         "age": "23",
         "number": "+38651896081",
         "dates": [],
-        "chosen": null
+        "chosen": null,
+        "status": ["participant", "/"]
     },
     "4": {
         "name": "Matej",
@@ -42,7 +46,8 @@
         "age": "20",
         "number": "+38651799916",
         "dates": [],
-        "chosen": null
+        "chosen": null,
+        "status": ["participant", "/"]
     },
     "5": {
         "name": "Tim ",
@@ -51,7 +56,8 @@
         "age": "20",
         "number": "+38640289622",
         "dates": [],
-        "chosen": null
+        "chosen": null,
+        "status": ["participant", "/"]
     },
     "6": {
         "name": "Alja\u017e",
@@ -60,7 +66,8 @@
         "age": "21",
         "number": "+38651830219",
         "dates": [],
-        "chosen": null
+        "chosen": null,
+        "status": ["participant", "/"]
     },
     "7": {
         "name": "Kristijan ",
@@ -69,7 +76,8 @@
         "age": "20",
         "number": "+38669634277",
         "dates": [],
-        "chosen": null
+        "chosen": null,
+        "status": ["participant", "/"]
     },
     "8": {
         "name": "Klemen",
@@ -78,7 +86,8 @@
         "age": "21",
         "number": "+38668148226",
         "dates": [],
-        "chosen": null
+        "chosen": null,
+        "status": ["participant", "/"]
     },
     "9": {
         "name": "Luka ",
@@ -87,7 +96,8 @@
         "age": "22",
         "number": "+38670497509",
         "dates": [],
-        "chosen": null
+        "chosen": null,
+        "status": ["participant", "/"]
     },
     "10": {
         "name": "Klemen",
@@ -96,6 +106,17 @@
         "age": "22",
         "number": "+38631855096",
         "dates": [],
-        "chosen": null
+        "chosen": null,
+        "status": ["participant", "/"]
+    },
+    "11": {
+        "name": "Nik",
+        "surname": "Česenj Vodovnik",
+        "gender": "M",
+        "age": "23",
+        "number": "+38640377824",
+        "dates": [1, 2, 3, 4, 5],
+        "chosen": null,
+        "status": ["participant", "admin"]
     }
 }

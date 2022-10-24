@@ -5,7 +5,7 @@ function redirect() {
     let validNumber = checkPhoneNumber(document.getElementById("phoneNumber").value);
 
     if (!validNumber) {
-        console.log("Oblika telefonske številke ni pravilna.");
+        console.log("Oblika telefoske številke ni pravilna.");
         document.getElementById("errorMessage").innerHTML = "Oblika telefonske številke ni pravilna";
     } else {
         var json = parseJson();
@@ -14,6 +14,13 @@ function redirect() {
         for (var i = 0; i < Object.keys(json).length; i++) {
             console.log(json[i]["number"]);
             if (validNumber == json[i]["number"]) {
+
+                localStorage.setItem("loggedID", JSON.stringify(i));
+                console.log(localStorage.getItem("loggedID"));
+
+                checkIfParticipant(json[i]);
+                checkIfAdmin(json[i]);
+
                 localStorage.setItem("loggedID", JSON.stringify(i));
                 window.location.href = "dates.html";
                 return;
@@ -46,4 +53,20 @@ function parseJson() {
     request.open("GET", "../lib/info.json", false);
     request.send(null);
     return JSON.parse(request.responseText);
+}
+
+function checkIfParticipant(person) {
+    if (person["status"][0] == "participant") {
+        localStorage.setItem("participant", JSON.stringify(true));
+    } else {
+        localStorage.setItem("participant", JSON.stringify(false));
+    }
+}
+
+function checkIfAdmin(person) {
+    if (person["status"][1] == "admin") {
+        localStorage.setItem("admin", JSON.stringify(true));
+    } else {
+        localStorage.setItem("admin", JSON.stringify(false));
+    }
 }
