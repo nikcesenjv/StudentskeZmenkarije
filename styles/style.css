@@ -8,7 +8,7 @@
 }
 
 html, body {
-    height: 100%;
+    height: 100vh;
     margin: 0;
 }
 
@@ -27,6 +27,11 @@ button {
     background-color: white;
     border-radius: 10px;
     border-color: 3px solid white;
+}
+
+div {
+    overflow-y: scroll;
+    height: 100%;
 }
 
 input {
