@@ -34,10 +34,12 @@ function runAdmin() {
 
     subHeaderLabel();
     for (var i = 0; i < Object.keys(parsedPeople).length; i++) {
-        currentTable = "table-" + i;
-        participantLabel(i);
-        participantTable();
-        loadDataTable(findDates(i));
+        if (i != loggedID) {
+            currentTable = "table-" + i;
+            participantLabel(i);
+            participantTable();
+            loadDataTable(findDates(i));
+        }
     }
 }
 
