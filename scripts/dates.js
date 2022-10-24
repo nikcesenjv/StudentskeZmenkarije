@@ -71,7 +71,7 @@ function datesLabel() {
     }
     datesAvailableText.appendChild(node);
 
-    const element = document.getElementById("container");
+    const element = document.getElementById("datesTable");
     element.appendChild(datesAvailableText);
 }
 
@@ -82,7 +82,7 @@ function nameLabel(id) {
     var node = document.createTextNode(parsedPeople[id]["name"] + " " + parsedPeople[id]["surname"]);
     nameText.appendChild(node);
 
-    const element = document.getElementById("container");
+    const element = document.getElementById("datesTable");
     element.appendChild(nameText);
 }
 
@@ -112,7 +112,7 @@ function datesTable() {
 
     dateTable.appendChild(header);
     
-    const element = document.getElementById("container");
+    const element = document.getElementById("datesTable");
     element.appendChild(dateTable);
 }
 

@@ -29,11 +29,6 @@ button {
     border-color: 3px solid white;
 }
 
-div {
-    overflow-y: scroll;
-    height: 100%;
-}
-
 input {
     height: 50px;
     width: 75%;
@@ -100,4 +95,9 @@ tr:first-child {
 .label {
     font-size: 20px;
     margin-bottom: 10px;
+}
+
+#datesTable {
+    overflow-y: scroll;
+    height:75vh;
 }
