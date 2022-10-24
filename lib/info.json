@@ -115,6 +115,16 @@
         "gender": "M",
         "age": "23",
         "number": "+38640377824",
+        "dates": [],
+        "chosen": null,
+        "status": ["/", "admin"]
+    },
+    "12": {
+        "name": "Irma",
+        "surname": "Cukjati",
+        "gender": "F",
+        "age": "23",
+        "number": "+38631568926",
         "dates": [1, 2, 3, 4, 5],
         "chosen": null,
         "status": ["participant", "admin"]
