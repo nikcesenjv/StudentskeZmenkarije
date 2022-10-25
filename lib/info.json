@@ -128,5 +128,15 @@
         "dates": [1, 2, 3, 4, 5],
         "chosen": null,
         "status": ["participant", "admin"]
+    },
+    "13": {
+        "name": "Rok",
+        "surname": "Kokot",
+        "gender": "M",
+        "age": "23",
+        "number": "+38631289548",
+        "dates": [],
+        "chosen": null,
+        "status": ["participant", "admin"]
     }
 }

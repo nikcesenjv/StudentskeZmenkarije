@@ -16,9 +16,6 @@ if (localStorage.getItem("admin") == "true") {
     runAdmin();
 }
 
-console.log(isAdmin);
-console.log(hasEveryStatus);
-
 if (!isAdmin || hasEveryStatus) {
     chooseFavourite();
 }

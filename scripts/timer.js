@@ -1,13 +1,12 @@
 function calculateTime() {
     var timerContainer = document.getElementById("timerContainer");
-    timerContainer.style.display = "block";
 
     const second = 1000,
           minute = second * 60,
           hour = minute * 60,
           day = hour * 24;
     
-    const countDown = Date.parse("sep 13, 2022 20:00:00 GMT+2"),
+    const countDown = Date.parse("sep 25, 2022 19:00:00 GMT+2"),
     x = setInterval(function() {    
 
         const now = new Date().getTime(),
@@ -25,8 +24,6 @@ function calculateTime() {
             return;
         }
     }, 0)
-
-    timerContainer.style.display = "none";
 }
 
 calculateTime();

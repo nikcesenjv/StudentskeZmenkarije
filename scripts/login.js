@@ -11,11 +11,9 @@ function redirect() {
         localStorage.setItem("loggedPeople", JSON.stringify(json));
 
         for (var i = 0; i < Object.keys(json).length; i++) {
-            console.log(json[i]["number"]);
             if (validNumber == json[i]["number"]) {
 
                 localStorage.setItem("loggedID", JSON.stringify(i));
-                console.log(localStorage.getItem("loggedID"));
 
                 checkIfParticipant(json[i]);
                 checkIfAdmin(json[i]);
