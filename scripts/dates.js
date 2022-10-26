@@ -20,6 +20,8 @@ if (!isAdmin || hasEveryStatus) {
     chooseFavourite();
 }
 
+
+
 function runParticipant() {
     subHeaderLabel();
     participantTable();
@@ -162,4 +164,8 @@ function chooseFavourite() {
 
     const element = document.getElementById("datesTable");
     element.appendChild(favouriteButton);
+}
+
+function redirectHome() {
+    window.location.href="../pages/login.html";
 }
