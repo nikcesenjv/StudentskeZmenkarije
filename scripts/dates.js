@@ -6,21 +6,29 @@ var currentTable = "table-participant";
 var isAdmin = false;
 var hasEveryStatus = false;
 
+var sessionReload = 0;
+
 sayHello(loggedID);
+showData();
+sessionTimer();
 
-if (localStorage.getItem("participant") == "true") {
-    runParticipant();
+function showData() {
+    if (localStorage.getItem("participant") == "true") {
+        runParticipant();
+    }
+    
+    if (localStorage.getItem("admin") == "true") {
+        runAdmin();
+    }
+    
+    if (!isAdmin || hasEveryStatus) {
+        chooseFavourite();
+    }
 }
 
-if (localStorage.getItem("admin") == "true") {
-    runAdmin();
+function removeScrolling() {
+    
 }
-
-if (!isAdmin || hasEveryStatus) {
-    chooseFavourite();
-}
-
-
 
 function runParticipant() {
     subHeaderLabel();
@@ -33,7 +41,8 @@ function runAdmin() {
 
     subHeaderLabel();
     for (var i = 0; i < Object.keys(parsedPeople).length; i++) {
-        if (i != loggedID) {
+        if (i != loggedID && parsedPeople[i]["status"][0] == "participant" && parsedPeople[i]["status"][1] != "admin"
+            || (parsedPeople[i]["status"][0] == "participant" && parsedPeople[i]["status"][1] == "admin")) {
             currentTable = "table-" + i;
             participantLabel(i);
             participantTable();
@@ -166,6 +175,22 @@ function chooseFavourite() {
     element.appendChild(favouriteButton);
 }
 
-function redirectHome() {
-    window.location.href="../pages/login.html";
+function sleep(milliseconds) {
+    return new Promise(resolve => setTimeout(resolve, milliseconds));
+}
+
+async function sessionTimer() {
+    for (var minute = 0; minute < 20; minute++) {
+        for (var second = 0; second < 60; second++) {
+            await sleep(1000);
+                console.log(second);
+        }
+        console.log("minuta " + minute + " je potekla");
+    }
+
+    reloadPage();
+}
+
+function reloadPage() {
+    window.location.reload();
 }
