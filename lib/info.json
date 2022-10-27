@@ -135,7 +135,7 @@
         "gender": "M",
         "age": "23",
         "number": "+38631289548",
-        "dates": [],
+        "dates": [1, 2, 3, 4],
         "chosen": null,
         "status": ["participant", "admin"]
     }

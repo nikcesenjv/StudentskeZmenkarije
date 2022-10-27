@@ -97,10 +97,10 @@ tr:first-child {
     margin-bottom: 10px;
 }
 
-#datesTable {
+/* #scrollableContainer {
     overflow-y: scroll;
-    height:75%;
-}
+    height: 75%;
+} */
 
 #participant {
     font-weight: 700;
