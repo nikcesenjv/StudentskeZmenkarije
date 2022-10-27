@@ -26,4 +26,5 @@ function calculateTime() {
     }, 0)
 }
 
+localStorage.clear();
 calculateTime();
