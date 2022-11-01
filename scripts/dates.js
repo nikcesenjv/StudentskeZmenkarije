@@ -166,7 +166,7 @@ function fillTable(dateList) {
 
 function chooseFavourite() {
     const favouriteButton = document.createElement("button");
-    favouriteButton.setAttribute("onclick", "location.href='https://www.google.si'");
+    favouriteButton.setAttribute("onclick", "location.href='https://www.youtube.com/watch?v=QDia3e12czc'");
 
     var node = document.createTextNode("Izberi svojega favorita!");
     favouriteButton.appendChild(node);

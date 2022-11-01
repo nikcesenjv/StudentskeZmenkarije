@@ -242,8 +242,8 @@
         "dates": [],
         "chosen": null,
         "status": [
-            "participant",
-            "/"
+            "/",
+            "admin"
         ]
     }
 }
