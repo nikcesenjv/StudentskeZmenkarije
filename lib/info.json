@@ -245,5 +245,18 @@
             "/",
             "admin"
         ]
+    },
+    "19": {
+        "name": "Dea",
+        "surname": "Manfreda",
+        "gender": "F",
+        "age": "21",
+        "number": "+38651828190",
+        "dates": [1, 2, 3, 4, 5],
+        "chosen": null,
+        "status": [
+            "participant",
+            "/"
+        ]
     }
 }
