@@ -2,6 +2,7 @@ document.getElementById("phoneNumber").innerHTML = "";
 
 function redirect() {
     let validNumber = checkPhoneNumber(document.getElementById("phoneNumber").value);
+    console.log(validNumber);
 
     if (!validNumber) {
         console.log("Oblika telefoske številke ni pravilna.");
@@ -10,7 +11,7 @@ function redirect() {
         var json = parseJson();
         localStorage.setItem("loggedPeople", JSON.stringify(json));
 
-        for (var i = 0; i < Object.keys(json).length; i++) {
+        for (var i = 1; i <= Object.keys(json).length; i++) {
             if (validNumber == json[i]["number"]) {
 
                 localStorage.setItem("loggedID", JSON.stringify(i));
