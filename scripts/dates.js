@@ -7,38 +7,43 @@ var currentTable = "table-participant";
 var isParticipant = false;
 var isAdmin = false;
 
-let person = sayHello(loggedID);
+// TODO: main function
+execute();
 
-if (isParticipant && isAdmin) {
-    runParticipant(person);
-    currentTable = "table-0";
-    runAdmin();
-    chooseFavourite();
-} else if (isParticipant) {
-    runParticipant(person);
-    chooseFavourite();
-} else {
-    currentTable = "table-0";
-    runAdmin();
+function execute() {
+    let person = sayHello(loggedID);
+
+    if (isParticipant && isAdmin) {
+        runParticipant(loggedID, person);
+        currentTable = "table-0";
+        runAdmin();
+        chooseFavourite();
+    } else if (isParticipant) {
+        console.log(loggedID);
+        console.log(person);
+        runParticipant(loggedID, person);
+        chooseFavourite();
+    } else {
+        currentTable = "table-0";
+        runAdmin();
+    }
 }
 
 function parse(target) {
-    return JSON.parse(target);
+    return JSON.parse(target)
 }
 
 function sayHello(id) {
-    var greet = ""
+    var greet = "POZDRAVLJEN";
 
-    let person = findPerson(id);
+    let person = getData(id);
     checkStatus();
 
-    if (person["gender"] == "M") {
-        greet = "POZDRAVLJEN,";
-    } else {
-        greet = "POZDRAVLJENA,";
+    if (person["gender"] == "F") {
+        greet += "A";
     }
 
-    document.getElementById("greeting").innerHTML = greet + "<br />" + person["name"] + "!";
+    document.getElementById("greeting").innerHTML = greet + ", <br />" + person["name"] + "!";
 
     if (isParticipant && isAdmin) {
         document.getElementById("adminTitle").innerHTML = "UDELEŽENEC & ADMIN";
@@ -49,12 +54,8 @@ function sayHello(id) {
     return person;
 }
 
-function findPerson(id) {
-    for (var i = 0; i < Object.keys(parsedPeople).length; i++) {
-        if (id == Object.keys(parsedPeople)[i]) {
-            return parsedPeople[i];
-        }
-    }
+function getData(id) {
+    return parsedPeople[id];
 }
 
 function checkStatus() {
@@ -67,10 +68,10 @@ function checkStatus() {
     }
 }
 
-function runParticipant() {
+function runParticipant(id, person) {
     subHeaderLabel();
     participantTable();
-    fillTable(person["dates"]);
+    fillTable(id, person);
 }
 
 function runAdmin() {
@@ -80,13 +81,13 @@ function runAdmin() {
     container.style.height = "75%";
 
     subHeaderLabel();
-    
-    for (var i = 0; i < Object.keys(parsedPeople).length; i++) {
+
+    for (var i = 1; i < Object.keys(parsedPeople).length; i++) {
         if (i != loggedID && parsedPeople[i]["status"][0] == "participant") {
             currentTable = "table-" + i;
             participantLabel(i);
             participantTable();
-            fillTable(findPerson(i)["dates"]);
+            fillTable(i, parsedPeople[i]);
         }
     }
 }
@@ -134,13 +135,13 @@ function participantTable() {
     const surnameText = document.createTextNode("Priimek");
     surname.appendChild(surnameText);
 
-    const number = document.createElement("td");
-    const numberText = document.createTextNode("Telefon");
-    number.appendChild(numberText);
+    const place = document.createElement("td");
+    const placeText = document.createTextNode("Št. mesta");
+    place.appendChild(placeText);
 
     header.appendChild(name);
     header.appendChild(surname);
-    header.appendChild(number);
+    header.appendChild(place);
 
     dateTable.appendChild(header);
     
@@ -148,27 +149,33 @@ function participantTable() {
     element.appendChild(dateTable);
 }
 
-function fillTable(dateList) {
+function fillTable(id, person) {
     var table = document.getElementById(currentTable);
-    let empty = "--pavza--"
+    let empty = "--pavza--";
 
-    for (var i = 0; i < dateList.length; i++) {
+    for (var i = 0; i < person["dates"].length; i++) {
         var row = table.insertRow();
         var c1 = row.insertCell();
         var c2 = row.insertCell();
         var c3 = row.insertCell();
 
-        if (dateList[i] == null) {
+        console.log(person["dates"][i]);
+        if (person["dates"][i] == null) {
             c1.innerHTML = empty;
             c2.innerHTML = empty;
             c3.innerHTML = empty;
         } else {
-            let date = findPerson(dateList[i])
-            console.log(date);
+            console.log(person["dates"][i]);
+            let date = getData(person["dates"][i]);
 
             c1.innerHTML = date["name"];
             c2.innerHTML = date["surname"];
-            c3.innerHTML = date["number"];
+
+            if (date["gender"] == "F") {
+                c3.innerHTML = person["dates"][i];
+            } else {
+                c3.innerHTML = id;
+            }
         }
     }
 }
