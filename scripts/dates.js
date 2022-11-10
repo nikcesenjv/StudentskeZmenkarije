@@ -150,17 +150,26 @@ function participantTable() {
 
 function fillTable(dateList) {
     var table = document.getElementById(currentTable);
+    let empty = "--pavza--"
 
     for (var i = 0; i < dateList.length; i++) {
-        let date = findPerson(dateList[i])
         var row = table.insertRow();
         var c1 = row.insertCell();
         var c2 = row.insertCell();
         var c3 = row.insertCell();
 
-        c1.innerHTML = date["name"];
-        c2.innerHTML = date["surname"];
-        c3.innerHTML = date["number"];
+        if (dateList[i] == null) {
+            c1.innerHTML = empty;
+            c2.innerHTML = empty;
+            c3.innerHTML = empty;
+        } else {
+            let date = findPerson(dateList[i])
+            console.log(date);
+
+            c1.innerHTML = date["name"];
+            c2.innerHTML = date["surname"];
+            c3.innerHTML = date["number"];
+        }
     }
 }
 

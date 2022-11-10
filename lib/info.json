@@ -5,7 +5,7 @@
         "gender": "M",
         "age": "22",
         "number": "+38641283015",
-        "dates": [1, 2, 3, 4, 5],
+        "dates": [21, 23, null, 23, 25],
         "chosen": null,
         "status": [
             "participant",
@@ -242,17 +242,147 @@
         "dates": [],
         "chosen": null,
         "status": [
-            "/",
-            "admin"
+            "participant",
+            "/"
         ]
     },
     "19": {
+        "name": "Peter",
+        "surname": "Godesa",
+        "gender": "M",
+        "age": "21",
+        "number": "+38669956613",
+        "dates": [],
+        "chosen": null,
+        "status": [
+            "participant",
+            "/"
+        ]
+    },
+    "20": {
+        "name": "David",
+        "surname": "\u0160eruga",
+        "gender": "M",
+        "age": "22",
+        "number": "+38669950490",
+        "dates": [],
+        "chosen": null,
+        "status": [
+            "participant",
+            "/"
+        ]
+    },
+    "21": {
+        "name": "Gaja ",
+        "surname": "Gregor\u010di\u010d ",
+        "gender": "F",
+        "age": "21",
+        "number": "+38664140471",
+        "dates": [],
+        "chosen": null,
+        "status": [
+            "participant",
+            "/"
+        ]
+    },
+    "22": {
+        "name": "David",
+        "surname": "O\u0161laj",
+        "gender": "M",
+        "age": "21",
+        "number": "+38630621383",
+        "dates": [],
+        "chosen": null,
+        "status": [
+            "participant",
+            "/"
+        ]
+    },
+    "23": {
         "name": "Dea",
         "surname": "Manfreda",
         "gender": "F",
         "age": "21",
         "number": "+38651828190",
-        "dates": [1, 2, 3, 4, 5],
+        "dates": [],
+        "chosen": null,
+        "status": [
+            "participant",
+            "/"
+        ]
+    },
+    "24": {
+        "name": "Anja",
+        "surname": "\u010cesen ",
+        "gender": "F",
+        "age": "24",
+        "number": "+38670808851",
+        "dates": [],
+        "chosen": null,
+        "status": [
+            "participant",
+            "/"
+        ]
+    },
+    "25": {
+        "name": "Katarina ",
+        "surname": "Hren",
+        "gender": "F",
+        "age": "22",
+        "number": "+38631494298",
+        "dates": [],
+        "chosen": null,
+        "status": [
+            "participant",
+            "/"
+        ]
+    },
+    "26": {
+        "name": "Lenart",
+        "surname": "Mo\u010denik",
+        "gender": "M",
+        "age": "20",
+        "number": "+38651235026",
+        "dates": [],
+        "chosen": null,
+        "status": [
+            "participant",
+            "/"
+        ]
+    },
+    "27": {
+        "name": "Toma\u017e",
+        "surname": "Kusterle",
+        "gender": "M",
+        "age": "19",
+        "number": "+38670133888",
+        "dates": [],
+        "chosen": null,
+        "status": [
+            "participant",
+            "/"
+        ]
+    },
+    "28": {
+        "name": "Bla\u017e",
+        "surname": "Kusterle",
+        "gender": "M",
+        "age": "22",
+        "number": "+38640221998",
+        "dates": [],
+        "chosen": null,
+        "status": [
+            "participant",
+            "/"
+        ]
+    },
+    "29": {
+        "name": "Jakob",
+        "surname": "Kolar",
+        "gender": "M",
+        "age": "22",
+        "number": "+38641996315",
+        "dates": [],
         "chosen": null,
         "status": [
             "participant",
