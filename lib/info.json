@@ -5,10 +5,11 @@
         "gender": "M",
         "age": "22",
         "number": "+38641283015",
+        "email": "david.vrhovsek@gmail.com",
         "dates": [
-            21,
             null,
-            23,
+            null,
+            null,
             null
         ],
         "chosen": null,
@@ -23,6 +24,7 @@
         "gender": "M",
         "age": "19",
         "number": "+38651807332",
+        "email": "perko.blaz3@gmail.com",
         "dates": [
             null,
             null,
@@ -41,6 +43,7 @@
         "gender": "M",
         "age": "24",
         "number": "+38641327015",
+        "email": "florjan.piko@gmail.com",
         "dates": [
             null,
             null,
@@ -59,6 +62,7 @@
         "gender": "M",
         "age": "23",
         "number": "+38651896081",
+        "email": "gmlina3@gmail.com",
         "dates": [
             null,
             null,
@@ -77,6 +81,7 @@
         "gender": "M",
         "age": "20",
         "number": "+38651799916",
+        "email": "vilar.matej.a@gmail.com",
         "dates": [
             null,
             null,
@@ -95,6 +100,7 @@
         "gender": "M",
         "age": "21",
         "number": "+38651830219",
+        "email": "scek.aljaz@gmail.com",
         "dates": [
             null,
             null,
@@ -113,6 +119,7 @@
         "gender": "M",
         "age": "20",
         "number": "+38669634277",
+        "email": "handanovickiki@gmail.com",
         "dates": [
             null,
             null,
@@ -131,6 +138,7 @@
         "gender": "M",
         "age": "21",
         "number": "+38668148226",
+        "email": "klemenkete345@gmail.com",
         "dates": [
             null,
             null,
@@ -149,6 +157,7 @@
         "gender": "M",
         "age": "22",
         "number": "+38670497509",
+        "email": "luka.safranko@gmail.com",
         "dates": [
             null,
             null,
@@ -167,6 +176,7 @@
         "gender": "M",
         "age": "22",
         "number": "+38631855096",
+        "email": "bogataj@kle.men",
         "dates": [
             null,
             null,
@@ -185,6 +195,7 @@
         "gender": "M",
         "age": "24",
         "number": "041 223 534",
+        "email": "matejknez52@gmail.com",
         "dates": [
             null,
             null,
@@ -203,6 +214,7 @@
         "gender": "M",
         "age": "21",
         "number": "+38651474308",
+        "email": "andropav@gmail.com",
         "dates": [
             null,
             null,
@@ -221,6 +233,7 @@
         "gender": "M",
         "age": "20",
         "number": "+38669838889",
+        "email": "vid.stanovnik02@gmail.com",
         "dates": [
             null,
             null,
@@ -239,6 +252,7 @@
         "gender": "M",
         "age": "21",
         "number": "031 886 136",
+        "email": "cemazarmartin@gmail.com",
         "dates": [
             null,
             null,
@@ -257,6 +271,7 @@
         "gender": "M",
         "age": "19",
         "number": "+38651418433",
+        "email": "jan3ler@gmail.com",
         "dates": [
             null,
             null,
@@ -275,6 +290,7 @@
         "gender": "M",
         "age": "19",
         "number": "+38641860720",
+        "email": "urby.zgonc@gmail.com",
         "dates": [
             null,
             null,
@@ -293,6 +309,7 @@
         "gender": "M",
         "age": "22",
         "number": "+38651890542",
+        "email": "pavel.music00@gmail.com",
         "dates": [
             null,
             null,
@@ -311,6 +328,7 @@
         "gender": "M",
         "age": "22",
         "number": "+38641242592",
+        "email": "matej.urbancic00@gmail.com",
         "dates": [
             null,
             null,
@@ -329,6 +347,7 @@
         "gender": "M",
         "age": "21",
         "number": "+38669956613",
+        "email": "peter.godesa01@gmail.com",
         "dates": [
             null,
             null,
@@ -347,6 +366,7 @@
         "gender": "M",
         "age": "22",
         "number": "+38669950490",
+        "email": "david.seruga@gmail.com",
         "dates": [
             null,
             null,
@@ -365,6 +385,7 @@
         "gender": "F",
         "age": "21",
         "number": "+38664140471",
+        "email": "gaja.gregorcic@gmail.com",
         "dates": [
             null,
             null,
@@ -383,6 +404,7 @@
         "gender": "M",
         "age": "21",
         "number": "+38630621383",
+        "email": "oslaj.david@gmail.com",
         "dates": [
             null,
             null,
@@ -401,10 +423,11 @@
         "gender": "F",
         "age": "21",
         "number": "+38651828190",
+        "email": "dea.manfreda@gmail.com",
         "dates": [
             null,
             null,
-            1,
+            null,
             null
         ],
         "chosen": null,
@@ -419,6 +442,7 @@
         "gender": "F",
         "age": "24",
         "number": "+38670808851",
+        "email": "anjacesen.5@gmail.com ",
         "dates": [
             null,
             null,
@@ -437,6 +461,7 @@
         "gender": "F",
         "age": "22",
         "number": "+38631494298",
+        "email": "katarina.hren123@gmail.com",
         "dates": [
             null,
             null,
@@ -455,6 +480,7 @@
         "gender": "M",
         "age": "20",
         "number": "+38651235026",
+        "email": "lenart.mocenik@gmail.com",
         "dates": [
             null,
             null,
@@ -473,6 +499,7 @@
         "gender": "M",
         "age": "19",
         "number": "+38670133888",
+        "email": "tomaz.kusterle@gmail.com",
         "dates": [
             null,
             null,
@@ -491,6 +518,7 @@
         "gender": "M",
         "age": "22",
         "number": "+38640221998",
+        "email": "blaz.kusterle@gmail.com",
         "dates": [
             null,
             null,
@@ -509,6 +537,7 @@
         "gender": "M",
         "age": "22",
         "number": "+38641996315",
+        "email": "jakisan.kolar@gmail.com",
         "dates": [
             null,
             null,
@@ -527,6 +556,7 @@
         "gender": "F",
         "age": "20.5",
         "number": "Ni\u010d-tri-ena pet-tri-osem osem-pet-ni\u010d",
+        "email": "sara.mihalic2@gmail.com ",
         "dates": [
             null,
             null,
@@ -545,6 +575,7 @@
         "gender": "F",
         "age": "20",
         "number": "070 723 507",
+        "email": "elizabeta.kranjec@gmail.com",
         "dates": [
             null,
             null,
@@ -563,6 +594,7 @@
         "gender": "M",
         "age": "26",
         "number": "+38651208393",
+        "email": "just.mysteryman@gmail.com",
         "dates": [
             null,
             null,
@@ -576,7 +608,597 @@
         ]
     },
     "33": {
+        "name": "Vid",
+        "surname": "Zgonc",
+        "gender": "M",
+        "age": "21",
+        "number": "+38641381731",
+        "email": "vid.zgonc@gmail.com",
+        "dates": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "chosen": null,
+        "status": [
+            "participant",
+            "/"
+        ]
+    },
+    "34": {
+        "name": "Rok",
+        "surname": "Muhi\u010d",
+        "gender": "M",
+        "age": "19",
+        "number": "064 185 930",
+        "email": "rok.muhic13@gmail.com",
+        "dates": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "chosen": null,
+        "status": [
+            "participant",
+            "/"
+        ]
+    },
+    "35": {
+        "name": "Jan",
+        "surname": "Lup\u0161e",
+        "gender": "M",
+        "age": "21",
+        "number": "+38670177487",
+        "email": "jan.lupse@gmail.com",
+        "dates": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "chosen": null,
+        "status": [
+            "participant",
+            "/"
+        ]
+    },
+    "36": {
+        "name": "Tim",
+        "surname": "Jev\u0161enak",
+        "gender": "M",
+        "age": "20",
+        "number": "+38641909343",
+        "email": "tim.jevsenak@gmail.com",
+        "dates": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "chosen": null,
+        "status": [
+            "participant",
+            "/"
+        ]
+    },
+    "37": {
+        "name": "Nejc",
+        "surname": "Miheli\u010d",
+        "gender": "M",
+        "age": "19",
+        "number": "+38641223663",
+        "email": "nejcmihelic10@gmail.com",
+        "dates": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "chosen": null,
+        "status": [
+            "participant",
+            "/"
+        ]
+    },
+    "38": {
+        "name": "Matic",
+        "surname": "Levstek",
+        "gender": "M",
+        "age": "20",
+        "number": "+38669626807",
+        "email": "matic.levstek11@gmail.com",
+        "dates": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "chosen": null,
+        "status": [
+            "participant",
+            "/"
+        ]
+    },
+    "39": {
+        "name": "Ur\u0161a ",
+        "surname": "\u0160abi\u010d ",
+        "gender": "F",
+        "age": "20",
+        "number": "+38631538910",
+        "email": "ursa.sabic@gmail.com",
+        "dates": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "chosen": null,
+        "status": [
+            "participant",
+            "/"
+        ]
+    },
+    "40": {
+        "name": "Mirjam",
+        "surname": "Poto\u010dnik",
+        "gender": "F",
+        "age": "21",
+        "number": "+38640667838",
+        "email": "mirjam.potocnik1gmail.com",
+        "dates": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "chosen": null,
+        "status": [
+            "participant",
+            "/"
+        ]
+    },
+    "41": {
+        "name": "Petra",
+        "surname": "Ah\u010din ",
+        "gender": "F",
+        "age": "20",
+        "number": "068 621 513",
+        "email": "5ra.ahcin@gmail.com",
+        "dates": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "chosen": null,
+        "status": [
+            "participant",
+            "/"
+        ]
+    },
+    "42": {
+        "name": "Lucija",
+        "surname": "\u0160travs ",
+        "gender": "F",
+        "age": "19",
+        "number": "+38651418961",
+        "email": "lucijastravs7@gmail.com",
+        "dates": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "chosen": null,
+        "status": [
+            "participant",
+            "/"
+        ]
+    },
+    "43": {
+        "name": "Katja",
+        "surname": "Poto\u010dnik ",
+        "gender": "F",
+        "age": "19",
+        "number": "+38670299552",
+        "email": "katja.potocnik19@gmail.com",
+        "dates": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "chosen": null,
+        "status": [
+            "participant",
+            "/"
+        ]
+    },
+    "44": {
+        "name": "Ma\u0161a ",
+        "surname": "Hajdinjak",
+        "gender": "F",
+        "age": "19",
+        "number": "+38631425672",
+        "email": "masa.hajdinjak@gmail.com",
+        "dates": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "chosen": null,
+        "status": [
+            "participant",
+            "/"
+        ]
+    },
+    "45": {
+        "name": "Vid",
+        "surname": "Ba\u010dar",
+        "gender": "M",
+        "age": "22",
+        "number": "031477903 ",
+        "email": "rokomet.bacar@gmail.com ",
+        "dates": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "chosen": null,
+        "status": [
+            "participant",
+            "/"
+        ]
+    },
+    "46": {
+        "name": "Ne\u017ea",
+        "surname": "Ho\u010devar",
+        "gender": "F",
+        "age": "20",
+        "number": "+38641518785",
+        "email": "neza.hocevar123@gmail.com",
+        "dates": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "chosen": null,
+        "status": [
+            "participant",
+            "/"
+        ]
+    },
+    "47": {
+        "name": "Doroteja",
+        "surname": "Okorn",
+        "gender": "F",
+        "age": "24",
+        "number": "040 737 474",
+        "email": "doroteja.okorn@gmail.com",
+        "dates": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "chosen": null,
+        "status": [
+            "participant",
+            "/"
+        ]
+    },
+    "48": {
+        "name": "Teja",
+        "surname": "Dem\u0161ar ",
+        "gender": "F",
+        "age": "19",
+        "number": "+38641508533",
+        "email": "tejademsar6@gmail.com",
+        "dates": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "chosen": null,
+        "status": [
+            "participant",
+            "/"
+        ]
+    },
+    "49": {
+        "name": "Meta",
+        "surname": "Logar",
+        "gender": "F",
+        "age": "22",
+        "number": "+38668625742",
+        "email": "meta.logar1@gmail.com",
+        "dates": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "chosen": null,
+        "status": [
+            "participant",
+            "/"
+        ]
+    },
+    "50": {
+        "name": "Lora Ana",
+        "surname": "Jure\u010di\u010d",
+        "gender": "F",
+        "age": "22",
+        "number": "+38651631970",
+        "email": "lora.jurecic@gmail.com",
+        "dates": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "chosen": null,
+        "status": [
+            "participant",
+            "/"
+        ]
+    },
+    "51": {
+        "name": "Eva",
+        "surname": "Menhard",
+        "gender": "F",
+        "age": "20",
+        "number": "+38670210877",
+        "email": "eva.menhard26@gmail.com",
+        "dates": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "chosen": null,
+        "status": [
+            "participant",
+            "/"
+        ]
+    },
+    "52": {
+        "name": "Ajda ",
+        "surname": "Toma\u017ein",
+        "gender": "F",
+        "age": "21",
+        "number": "+38651366306",
+        "email": "ajdica.tomazin@gmail.com",
+        "dates": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "chosen": null,
+        "status": [
+            "participant",
+            "/"
+        ]
+    },
+    "53": {
+        "name": "Maja ",
+        "surname": "Gros",
+        "gender": "F",
+        "age": "20",
+        "number": "+38640621093",
+        "email": "gros.maja7@gmail.com",
+        "dates": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "chosen": null,
+        "status": [
+            "participant",
+            "/"
+        ]
+    },
+    "54": {
+        "name": "Leonard",
+        "surname": "Von\u010dina",
+        "gender": "M",
+        "age": "22",
+        "number": "+38640770120",
+        "email": "leonard.voncina@gmail.com",
+        "dates": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "chosen": null,
+        "status": [
+            "participant",
+            "/"
+        ]
+    },
+    "55": {
+        "name": "Kristjan",
+        "surname": "Dvorak Dra\u0161ler",
+        "gender": "M",
+        "age": "22",
+        "number": "+38631227824",
+        "email": "kristjan.dvorak.drasler@gmail.com",
+        "dates": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "chosen": null,
+        "status": [
+            "participant",
+            "/"
+        ]
+    },
+    "56": {
+        "name": "Karmen",
+        "surname": "Troha",
+        "gender": "F",
+        "age": "19",
+        "number": "+38668675457",
+        "email": "karmen.troha@gmail.com",
+        "dates": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "chosen": null,
+        "status": [
+            "participant",
+            "/"
+        ]
+    },
+    "57": {
+        "name": "Sara",
+        "surname": "Ban",
+        "gender": "F",
+        "age": "23",
+        "number": "0 30 687 735",
+        "email": "sara.ban696@gmail.com",
+        "dates": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "chosen": null,
+        "status": [
+            "participant",
+            "/"
+        ]
+    },
+    "58": {
+        "name": "Karlo",
+        "surname": "Egi\u0107",
+        "gender": "M",
+        "age": "20",
+        "number": "+38641818557",
+        "email": "karlo.e@protonmail.com",
+        "dates": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "chosen": null,
+        "status": [
+            "participant",
+            "/"
+        ]
+    },
+    "59": {
+        "name": "Greta",
+        "surname": "Ko\u010dar",
+        "gender": "F",
+        "age": "20",
+        "number": "+38641768438",
+        "email": "greta.kocar8@gmail.com",
+        "dates": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "chosen": null,
+        "status": [
+            "participant",
+            "/"
+        ]
+    },
+    "60": {
+        "name": "David ",
+        "surname": "Dobov\u0161ek",
+        "gender": "M",
+        "age": "19",
+        "number": "+38670513645",
+        "email": "da.dobovsek@gmail.com",
+        "dates": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "chosen": null,
+        "status": [
+            "participant",
+            "/"
+        ]
+    },
+    "61": {
+        "name": "Vid",
+        "surname": "Kar\u010dnik",
+        "gender": "M",
+        "age": "22",
+        "number": "030 632 090",
+        "email": "vid.karcnik@gmail.com ",
+        "dates": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "chosen": null,
+        "status": [
+            "participant",
+            "/"
+        ]
+    },
+    "62": {
+        "name": "Jo\u017eef ",
+        "surname": "Krnc",
+        "gender": "M",
+        "age": "19",
+        "number": "+38669708584",
+        "email": "krnc.jozef@gmail.com",
+        "dates": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "chosen": null,
+        "status": [
+            "participant",
+            "/"
+        ]
+    },
+    "63": {
+        "name": "Matija",
+        "surname": "Zajc",
+        "gender": "M",
+        "age": "22",
+        "number": "+38641863654",
+        "email": "matijazajc124@gmail.com",
+        "dates": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "chosen": null,
+        "status": [
+            "participant",
+            "/"
+        ]
+    },
+    "64": {
         "name": "Nik",
+        "surname": "Česenj Vodovnik",
         "gender": "M",
         "number": "+38640377824",
         "status": [
