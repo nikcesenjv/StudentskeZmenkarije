@@ -113,7 +113,7 @@ function participantLabel(id) {
     nameText.setAttribute("class", "description");
     nameText.setAttribute("id", "participant");
 
-    var node = document.createTextNode(parsedPeople[id]["name"] + " " + parsedPeople[id]["surname"]);
+    var node = document.createTextNode(id + " - " + parsedPeople[id]["name"] + " " + parsedPeople[id]["surname"]);
     nameText.appendChild(node);
 
     const element = document.getElementById("scrollableContainer");
@@ -159,13 +159,11 @@ function fillTable(id, person) {
         var c2 = row.insertCell();
         var c3 = row.insertCell();
 
-        console.log(person["dates"][i]);
         if (person["dates"][i] == null) {
             c1.innerHTML = empty;
             c2.innerHTML = empty;
             c3.innerHTML = empty;
         } else {
-            console.log(person["dates"][i]);
             let date = getData(person["dates"][i]);
 
             c1.innerHTML = date["name"];
