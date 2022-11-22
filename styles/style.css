@@ -14,8 +14,12 @@ html, body {
 
 body {
     align-items: center;
-    background:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgb(235, 69, 120)), color-stop(100%, rgb(235, 100, 69)));
+    /* background:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgb(235, 69, 120)), color-stop(100%, rgb(235, 100, 69))); */
     /* background: linear-gradient(rgb(235, 69, 120), rgb(235, 100, 69)); */
+
+    background-image: url(icons/background.png);
+    background-size: 100% 100%;
+
     display: flex;
     font-family: 'Montserrat', sans-serif;
 }
