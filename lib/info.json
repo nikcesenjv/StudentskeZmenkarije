@@ -1764,5 +1764,23 @@
             "/",
             "admin"
         ]
+    },
+    "96": {
+        "name": "Urh",
+        "gender": "M",
+        "number": "tel_urh",
+        "status": [
+            "/",
+            "admin"
+        ]
+    },
+    "97": {
+        "name": "Neža",
+        "gender": "F",
+        "number": "tel_neza",
+        "status": [
+            "/",
+            "admin"
+        ]
     }
 }
