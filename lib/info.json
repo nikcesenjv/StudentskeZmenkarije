@@ -152,7 +152,7 @@
         ]
     },
     "9": {
-        "name": "Luka ",
+        "name": "Luka",
         "surname": "Šafranko",
         "gender": "M",
         "age": "22",
@@ -400,11 +400,11 @@
     },
     "22": {
         "name": "Anja",
-        "surname": "Česen ",
+        "surname": "Česen",
         "gender": "F",
         "age": "24",
         "number": "+38670808851",
-        "email": "anjacesen.5@gmail.com ",
+        "email": "anjacesen.5@gmail.com",
         "dates": [
             51,
             15,
@@ -418,7 +418,7 @@
         ]
     },
     "23": {
-        "name": "Katarina ",
+        "name": "Katarina",
         "surname": "Hren",
         "gender": "F",
         "age": "22",
@@ -518,7 +518,7 @@
         "gender": "F",
         "age": "20.5",
         "number": "+38631538850",
-        "email": "sara.mihalic2@gmail.com ",
+        "email": "sara.mihalic2@gmail.com",
         "dates": [
             16,
             11,
@@ -665,8 +665,8 @@
         ]
     },
     "36": {
-        "name": "Urša ",
-        "surname": "Šabič ",
+        "name": "Urša",
+        "surname": "Šabič",
         "gender": "F",
         "age": "20",
         "number": "+38631538910",
@@ -685,7 +685,7 @@
     },
     "37": {
         "name": "Petra",
-        "surname": "Ahčin ",
+        "surname": "Ahčin",
         "gender": "F",
         "age": "20",
         "number": "+38668621513",
@@ -704,7 +704,7 @@
     },
     "38": {
         "name": "Lucija",
-        "surname": "Štravs ",
+        "surname": "Štravs",
         "gender": "F",
         "age": "19",
         "number": "+38651418961",
@@ -741,7 +741,7 @@
         ]
     },
     "40": {
-        "name": "Maša ",
+        "name": "Maša",
         "surname": "Hajdinjak",
         "gender": "F",
         "age": "19",
@@ -765,7 +765,7 @@
         "gender": "M",
         "age": "22",
         "number": "+38631477903",
-        "email": "rokomet.bacar@gmail.com ",
+        "email": "rokomet.bacar@gmail.com",
         "dates": [
             82,
             73,
@@ -818,7 +818,7 @@
     },
     "44": {
         "name": "Teja",
-        "surname": "Demšar ",
+        "surname": "Demšar",
         "gender": "F",
         "age": "19",
         "number": "+38641508533",
@@ -893,7 +893,7 @@
         ]
     },
     "48": {
-        "name": "Ajda ",
+        "name": "Ajda",
         "surname": "Tomažin",
         "gender": "F",
         "age": "21",
@@ -912,7 +912,7 @@
         ]
     },
     "49": {
-        "name": "Maja ",
+        "name": "Maja",
         "surname": "Gros",
         "gender": "F",
         "age": "20",
@@ -951,7 +951,7 @@
     },
     "51": {
         "name": "Kristjan",
-        "surname": "Dvorak Drašler",
+        "surname": "Dvořák Drašler",
         "gender": "M",
         "age": "22",
         "number": "+38631227824",
@@ -1045,7 +1045,7 @@
         ]
     },
     "56": {
-        "name": "David ",
+        "name": "David",
         "surname": "Dobovšek",
         "gender": "M",
         "age": "19",
@@ -1069,7 +1069,7 @@
         "gender": "M",
         "age": "22",
         "number": "+38630632090",
-        "email": "vid.karcnik@gmail.com ",
+        "email": "vid.karcnik@gmail.com",
         "dates": [
             63,
             70,
@@ -1083,7 +1083,7 @@
         ]
     },
     "58": {
-        "name": "Jožef ",
+        "name": "Jožef",
         "surname": "Krnc",
         "gender": "M",
         "age": "19",
@@ -1141,11 +1141,11 @@
     },
     "61": {
         "name": "Ana",
-        "surname": "Malovrh ",
+        "surname": "Malovrh",
         "gender": "F",
         "age": "20",
         "number": "+38651436577",
-        "email": "ana5malovrh@gmail.com ",
+        "email": "ana5malovrh@gmail.com",
         "dates": [
             85,
             88,
@@ -1179,11 +1179,11 @@
     },
     "63": {
         "name": "Hana",
-        "surname": "Jagodic ",
+        "surname": "Jagodic",
         "gender": "F",
         "age": "22",
         "number": "+38641980353",
-        "email": "hana.jagodic@gmail.com ",
+        "email": "hana.jagodic@gmail.com",
         "dates": [
             57,
             58,
@@ -1198,11 +1198,11 @@
     },
     "64": {
         "name": "Marija",
-        "surname": "Bergant ",
+        "surname": "Bergant",
         "gender": "F",
         "age": "21",
         "number": "+38651886775",
-        "email": "marijabrgnt@gmail.com ",
+        "email": "marijabrgnt@gmail.com",
         "dates": [
             26,
             2,
@@ -1330,7 +1330,7 @@
         ]
     },
     "71": {
-        "name": "Nika ",
+        "name": "Nika",
         "surname": "Štrukelj",
         "gender": "F",
         "age": "23",
@@ -1464,7 +1464,7 @@
     },
     "78": {
         "name": "Petra",
-        "surname": "Nemanič ",
+        "surname": "Nemanič",
         "gender": "F",
         "age": "21",
         "number": "+38630691273",
@@ -1542,7 +1542,7 @@
         "name": "Ajda",
         "surname": "Benedičič",
         "gender": "F",
-        "age": "20 let",
+        "age": "20",
         "number": "+38651728049",
         "email": "ajda49.benedicic@gmail.com",
         "dates": [
@@ -1559,7 +1559,7 @@
     },
     "83": {
         "name": "Katja",
-        "surname": "Šuštaršič ",
+        "surname": "Šuštaršič",
         "gender": "F",
         "age": "21",
         "number": "+38651267062",
@@ -1711,7 +1711,7 @@
     },
     "91": {
         "name": "Nejc",
-        "surname": "Kavčič ",
+        "surname": "Kavčič",
         "gender": "M",
         "age": "23",
         "number": "+38631572940",
@@ -1796,6 +1796,24 @@
         "name": "Ana",
         "gender": "F",
         "number": "+38630680148",
+        "status": [
+            "/",
+            "admin"
+        ]
+    },
+    "99": {
+        "name": "Jera",
+        "gender": "F",
+        "number": "+38640685299",
+        "status": [
+            "/",
+            "admin"
+        ]
+    },
+    "100": {
+        "name": "Gaja",
+        "gender": "F",
+        "number": "+38670733322",
         "status": [
             "/",
             "admin"
