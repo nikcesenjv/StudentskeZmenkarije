@@ -180,7 +180,7 @@ function fillTable(id, person) {
 
 function chooseFavourite() {
     const favouriteButton = document.createElement("button");
-    favouriteButton.setAttribute("onclick", "location.href='https://www.youtube.com/watch?v=QDia3e12czc'");
+    favouriteButton.setAttribute("onclick", "location.href='https://forms.gle/tvNiGR4YxdfEC9Ao8'");
 
     var node = document.createTextNode("Izberi svojega favorita!");
     favouriteButton.appendChild(node);
